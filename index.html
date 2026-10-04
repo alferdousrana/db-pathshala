@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Database Pathshala · ডাটাবেস পাঠশালা</title>
+<meta name="description" content="CSE 209 Database Systems — বাংলা ও English-এ chapter-wise শেখা, MCQ, নোট ও রিওয়ার্ড">
+<meta name="theme-color" content="#2453C6">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" href="icons/favicon.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="DB Pathshala">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@400;600;700;800&family=Hind+Siliguri:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <a href="#/" class="brand" aria-label="Home">
+    <img src="icons/icon-192.png" alt="" width="30" height="30">
+    <span class="brand-name" id="brandName">ডাটাবেস পাঠশালা</span>
+  </a>
+  <div class="top-actions">
+    <button class="icon-btn" id="installTop" hidden aria-label="Install app">⬇</button>
+    <div class="lang-switch" role="group" aria-label="Language">
+      <button data-lang="bn">বাং</button><button data-lang="en">EN</button>
+    </div>
+    <button class="icon-btn" id="themeBtn" aria-label="Theme">◐</button>
+    <a href="#/me" class="icon-btn sync-dot" id="syncDot" aria-label="Account"><span></span>👤</a>
+  </div>
+</header>
+
+<main id="view" tabindex="-1"></main>
+
+<nav class="bottomnav" aria-label="Main">
+  <a href="#/" data-tab="home"><span class="ni">📖</span><span data-ui="learn">শিখি</span></a>
+  <a href="#/revise" data-tab="revise"><span class="ni">⭐</span><span data-ui="revise">রিভিশন</span></a>
+  <a href="#/notes" data-tab="notes"><span class="ni">📝</span><span data-ui="notes">নোট</span><b class="badge-count" id="doubtCount" hidden></b></a>
+  <a href="#/me" data-tab="me"><span class="ni">🏆</span><span data-ui="me">আমি</span></a>
+</nav>
+
+<div id="sheet" class="sheet" hidden><div class="sheet-bg" data-close></div><div class="sheet-panel" role="dialog" aria-modal="true"></div></div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<canvas id="confetti" aria-hidden="true"></canvas>
+
+<script src="js/firebase-config.js"></script>
+<script src="js/sync.js"></script>
+<script src="js/visuals.js"></script>
+<script src="js/data/ch1.js"></script>
+<script src="js/data/ch2.js"></script>
+<script src="js/data/ch3.js"></script>
+<script src="js/data/ch4.js"></script>
+<script src="js/data/ch5.js"></script>
+<script src="js/data/ch6.js"></script>
+<script src="js/data/cq1.js"></script>
+<script src="js/data/cq2.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

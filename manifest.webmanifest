@@ -1,0 +1,16 @@
+{
+  "name": "Database Pathshala — ডাটাবেস পাঠশালা",
+  "short_name": "DB Pathshala",
+  "description": "CSE 209 Database Systems: বাংলা ও English-এ শেখা, MCQ, নোট ও রিওয়ার্ড",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#EEF2F6",
+  "theme_color": "#2453C6",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
